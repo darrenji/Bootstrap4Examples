@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+   <div class="container">
+       <p>
+            <a href="#collapseExample1" class="btn btn-primary" data-toggle="collapse">Link with href</a>
+        </p>
+        <div class="collapse" id="collapseExample1">
+            <div class="card card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestias commodi, voluptatibus in, dicta iure mollitia quaerat iusto quis quam voluptatum hic sunt. Illo ratione temporibus adipisci soluta dicta deleniti!
+            </div>
+        </div>
+        
+        <hr>
+        
+        <div id="accordion" role="tablist">
+            <div class="card">
+                <div class="card-header" id="headingOne" role="tab">
+                    <h5 class="mb-0">
+                        <a href="#collpaseOne" data-toggle="collapse">
+                            Collapsible Group item1
+                        </a>
+                    </h5>
+                </div>
+                <div id="collpaseOne" class="collpase show" role="tabpanel" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto cum molestias voluptatem, explicabo assumenda praesentium expedita dolor cumque repellat, sed distinctio doloremque labore reprehenderit eum delectus iste dolorem enim, facere!
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo" role="tab">
+                    <h5 class="mb-0">
+                        <a href="#collpaseTwo" data-toggle="collapse">
+                            Collapsible Group item2
+                        </a>
+                    </h5>
+                </div>
+                <div id="collpaseTwo" class="collpase show" role="tabpanel" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto cum molestias voluptatem, explicabo assumenda praesentium expedita dolor cumque repellat, sed distinctio doloremque labore reprehenderit eum delectus iste dolorem enim, facere!
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree" role="tab">
+                    <h5 class="mb-0">
+                        <a href="#collpaseThree" data-toggle="collapse">
+                            Collapsible Group item1
+                        </a>
+                    </h5>
+                </div>
+                <div id="collpaseThree" class="collpase show" role="tabpanel" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto cum molestias voluptatem, explicabo assumenda praesentium expedita dolor cumque repellat, sed distinctio doloremque labore reprehenderit eum delectus iste dolorem enim, facere!
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+    
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
